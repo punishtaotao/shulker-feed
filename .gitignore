@@ -19,3 +19,6 @@ tools/
 # OS
 Thumbs.db
 .DS_Store
+
+# WorkBuddy 内部目录（不公开）
+.workbuddy/
