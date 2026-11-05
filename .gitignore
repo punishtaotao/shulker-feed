@@ -1,0 +1,21 @@
+# Gradle 缓存（不提交）
+.gradle/
+
+# 构建产物（jar 通过 Release 发布）
+build/
+out/
+
+# 开发时下载的本地工具残留（损坏的 jdk/gradle 包等）
+tools/
+
+# IDE
+*.iml
+.idea/
+*.ipr
+*.iws
+.project
+.classpath
+
+# OS
+Thumbs.db
+.DS_Store

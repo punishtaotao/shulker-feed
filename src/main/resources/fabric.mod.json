@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "shulker-feed",
+  "version": "${version}",
+  "name": "Shulker Feed",
+  "description": "自动从潜影盒取材料补充到物品栏，按投影连续放置方块不断料。通用版，适配任意投影类 mod。",
+  "authors": ["小沃"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.shulkerfeed.ShulkerFeedMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "fabric-api": "*",
+    "minecraft": "~26.2"
+  }
+}
